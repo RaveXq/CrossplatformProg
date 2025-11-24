@@ -2,7 +2,7 @@ name: Deploy Resume Builder WEB app to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ lab10 ]
   workflow_dispatch:
 
 jobs:
