@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 import 'config/dependencies.dart';
 import 'routing/router.dart';
@@ -9,6 +10,8 @@ import 'main_viewmodel.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  MobileAds.instance.initialize();
 
   final personProfileRepository = PersonProfileRepository();
   await personProfileRepository.initialize();

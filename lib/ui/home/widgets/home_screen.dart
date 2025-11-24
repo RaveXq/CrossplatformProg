@@ -5,6 +5,7 @@ import '../../../routing/routes.dart';
 import '../view_models/home_viewmodel.dart';
 import '../../../domain/models/person_profile.dart';
 import '../../../main_viewmodel.dart';
+import '../../common/widgets/banner_ad_widget.dart';
 
 class HomeScreen extends StatelessWidget {
   final HomeViewModel viewModel;
@@ -45,7 +46,14 @@ class HomeScreen extends StatelessWidget {
         ),
         body: Consumer<HomeViewModel>(
           builder: (context, vm, child) {
-            return _buildProfileList(context, vm.profiles);
+            return Column(
+              children: [
+                Expanded(
+                  child: _buildProfileList(context, vm.profiles),
+                ),
+                MyBannerAdWidget(),
+              ],
+            );
           },
         ),
         floatingActionButton: FloatingActionButton(
