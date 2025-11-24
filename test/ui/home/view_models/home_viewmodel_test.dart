@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lab10/ui/home/view_models/home_viewmodel.dart';
-import 'package:lab10/domain/models/person_profile.dart';
-import 'package:lab10/domain/models/skill.dart';
+import 'package:resume_builder/ui/home/view_models/home_viewmodel.dart';
+import 'package:resume_builder/domain/models/person_profile.dart';
+import 'package:resume_builder/domain/models/skill.dart';
 import '../../../fakes/fake_person_profile_repository.dart';
 
 void main() {

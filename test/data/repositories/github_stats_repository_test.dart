@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lab10/data/repositories/github_stats_repository.dart';
+import 'package:resume_builder/data/repositories/github_stats_repository.dart';
 import '../../fakes/fake_github_api_service.dart';
 
 void main() {

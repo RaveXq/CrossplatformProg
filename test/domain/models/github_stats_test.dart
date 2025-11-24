@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lab10/domain/models/github_stats.dart';
+import 'package:resume_builder/domain/models/github_stats.dart';
 
 void main() {
   group('GithubStats tests', () {

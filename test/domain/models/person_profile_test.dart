@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lab10/domain/models/person_profile.dart';
-import 'package:lab10/domain/models/skill.dart';
+import 'package:resume_builder/domain/models/person_profile.dart';
+import 'package:resume_builder/domain/models/skill.dart';
 
 void main() {
   group('PersonProfile tests', () {

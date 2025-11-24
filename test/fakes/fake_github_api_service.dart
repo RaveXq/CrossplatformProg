@@ -1,4 +1,4 @@
-import 'package:lab10/data/services/github_api_service.dart';
+import 'package:resume_builder/data/services/github_api_service.dart';
 
 class FakeGithubApiService implements GithubApiService {
   final Map<String, Map<String, dynamic>> _mockData = {

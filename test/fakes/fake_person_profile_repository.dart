@@ -1,6 +1,6 @@
-import 'package:lab10/data/repositories/person_profile_repository.dart';
-import 'package:lab10/domain/models/person_profile.dart';
-import 'package:lab10/domain/models/skill.dart';
+import 'package:resume_builder/data/repositories/person_profile_repository.dart';
+import 'package:resume_builder/domain/models/person_profile.dart';
+import 'package:resume_builder/domain/models/skill.dart';
 
 class FakePersonProfileRepository implements PersonProfileRepository {
   final List<PersonProfile> _profiles = [];
